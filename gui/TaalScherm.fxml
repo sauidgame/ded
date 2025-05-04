@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="970.0" type="BorderPane" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane fx:id="TaalLabel" prefHeight="391.0" prefWidth="772.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnEnglish" layoutX="439.0" layoutY="204.0" mnemonicParsing="false" onAction="#taalEngels" prefHeight="26.0" prefWidth="93.0" text="English">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNederlands" layoutX="439.0" layoutY="295.0" mnemonicParsing="false" onAction="#taalNederlands" prefHeight="28.0" prefWidth="93.0" text="Nederlands">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Label fx:id="labelTaal" text="Select a language&#10;&#10;Selecteer een taal" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Century" size="20.0" />
+         </font>
+      </Label>
+   </top>
+</fx:root>
